@@ -1,0 +1,69 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+    background-image: radial-gradient(circle, #ff0000 10%, transparent 10%), radial-gradient(circle, #ff0000 10%, transparent 10%);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
+
+/* Estilo para o título */
+.title {
+    font-size: 2.5rem;
+    color: #FFDB58; /* Amarelo Mostarda */
+    margin-bottom: 20px;
+    background-image: url('orgao1.png'), url('orgao2.png'), url('orgao3.png'); /* Substitua com as imagens dos órgãos */
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: transparent;
+    background-position: left bottom, right bottom, center;
+}
+
+/* Estilo para o parágrafo */
+p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Estilo das seções */
+section {
+    background-color: #fff;
+    border: 2px solid #228B22;
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o cursor (imagem de vírus) */
+body {
+    cursor: url('virus-cursor.png'), auto;
+}
+
+/* Efeito de animação para fade in */
+.container {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Efeito hover nas seções */
+section:hover {
+    background-color: #e7f5e7;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
