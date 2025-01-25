@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    color: #ffcc00;
+    text-align: center;
+}
+
+h2 {
+    color: #d9534f;
+}
+
+p {
+    line-height: 1.6;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #d9534f;
+    padding-bottom: 5px;
+}
+
+section:hover {
+    background-color: #ffcc00;
+    color: #333;
+    cursor: pointer;
+}

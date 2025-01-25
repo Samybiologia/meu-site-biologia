@@ -1,0 +1,6 @@
+title: "Samanta e a Biologia: Comédia e Ciência no Mesmo Petri!"
+description: "Um site que mistura humor e ciência para ensinar biologia de forma lúdica e divertida."
+baseurl: "" # Mantenha vazio para GitHub Pages.
+url: "http://samybiologia.com/" # Substitua pelo link do seu site.
+markdown: kramdown
+theme: minima # Pode alterar para outro tema suportado.
